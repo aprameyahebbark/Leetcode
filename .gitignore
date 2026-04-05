@@ -1,0 +1,40 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Java compiled files
+*.class
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IntelliJ specific caches
+.idea_modules/
+
+# Editor-specific
+*.swp
+*.swo
+
+# Coverage / test output
+coverage/
