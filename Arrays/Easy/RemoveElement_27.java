@@ -7,7 +7,7 @@ public class RemoveElement_27 {
         RemoveElement_27 obj = new  RemoveElement_27();
         int k = obj.removeElement(nums,val);
         System.out.println(" k : "+ k);
-        System.out.println("Array: "+ Arrays.toString(Arrays.copyOf(nums,k)));
+        System.out.println(" Array: "+ Arrays.toString(Arrays.copyOf(nums,k)));
     }
     public int removeElement(int[] nums, int val) {
         int k = 0;
