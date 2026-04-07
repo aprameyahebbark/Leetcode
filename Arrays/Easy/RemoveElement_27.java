@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class RemoveElement_27 {
     public static void main(String[] args) {
-        int[] nums = new int[]{3,2,2,3};
-        int val = 2;
+        int[] nums = new int[]{0,1,2,2,3,0,4,2};
+        int val = 0;
         RemoveElement_27 obj = new  RemoveElement_27();
         int k = obj.removeElement(nums,val);
         System.out.println(" k : "+ k);
