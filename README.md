@@ -13,13 +13,20 @@ Example structure:
 ```
 LeetCode
 │
-LeetCode
 ├── Arrays
-│   ├── Easy
-│   │   ├── LongestCommonPrefix_14.java
-│   │   ├── MajorityElement_169.java
-│   │   ├── SingleNumber_136.java
-│   │   └── FindNumbersWithEvenDigits_1295.java
+│ ├── Easy
+│ │ ├── LongestCommonPrefix_14.java
+│ │ ├── MergeSortedArray_88.java
+│ │ ├── MissingNumber_268.java
+│ │ ├── PlusOne_66.java
+│ │ ├── RemoveDuplicatesFromSortedArray_26.java
+│ │ ├── RemoveElement_27.java
+│ │ ├── SearchInsertPosition_35.java
+│ │ ├── SingleNumber_136.java
+│ │ └── TwoSum_01.java
+│
+├── Medium
+├── Hard
 ```
 ## Approach
 
