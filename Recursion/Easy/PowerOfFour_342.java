@@ -2,27 +2,21 @@ package Easy;
 
 public class PowerOfFour_342 {
 
-    public static boolean isPowerOfThree(int n) {
+    public static boolean isPowerOfFour(int n) {
 
-        if (n <= 0) {
-            return false;
-        }
-
-        while (n % 4 == 0) {
-            n /= 4;
-        }
-
-        return n == 1;
+        return n > 0 &&
+                (n & (n - 1)) == 0 &&
+                (n & 0x55555555) != 0;
     }
 
     public static void main(String[] args) {
 
         int n = 16;
 
-        if (isPowerOfThree(n)) {
+        if (isPowerOfFour(n)) {
             System.out.println(n + " is a Power of Four");
         } else {
-            System.out.println(n + " isn't a Power of four");
+            System.out.println(n + " isn't a Power of Four");
         }
     }
 }
