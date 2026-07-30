@@ -117,5 +117,3 @@ This repository serves as my personal DSA journal with the goals of:
 - Designed for interview preparation and quick revision
 
 ---
-
-⭐ If you find this repository useful, feel free to star it.
