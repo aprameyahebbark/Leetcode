@@ -1,5 +1,5 @@
 package Medium;
-import java.util.Arrays;
+import java.util.*;
 public class FindFirstAndLastPosition_34 {
     public int[] searchRange(int[] nums, int target) {
         int first = findFirst(nums, target);
