@@ -1,52 +1,121 @@
 # LeetCode Practice Repository
 
-This repository contains my solutions to LeetCode problems, organized systematically for structured learning, revision, and interview preparation.
+This repository contains my Java solutions to LeetCode problems, organized topic-wise for systematic learning, revision, and interview preparation.
 
 ## Repository Structure
 
-Problems are organized using the hierarchy:
-
-**Topic → Difficulty → Problem Files**
-
-Example structure:
+Problems are organized using the following hierarchy:
 
 ```
-LeetCode
+LeetCode_DSA
 │
 ├── Arrays
-│ ├── Easy
-│ │ ├── LongestCommonPrefix_14.java
-│ │ ├── MergeSortedArray_88.java
-│ │ ├── MissingNumber_268.java
-│ │ ├── PlusOne_66.java
-│ │ ├── RemoveDuplicatesFromSortedArray_26.java
-│ │ ├── RemoveElement_27.java
-│ │ ├── SearchInsertPosition_35.java
-│ │ ├── SingleNumber_136.java
-│ │ └── TwoSum_01.java
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
 │
-├── Medium
-├── Hard
+├── BinarySearch
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│
+├── HashFunctions
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│
+├── Recursion
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│
+├── String
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│
+└── README.md
 ```
+
+---
+
+## Contents
+
+The repository currently includes solutions from the following topics:
+
+- Arrays
+- Binary Search
+- Hash Functions
+- Recursion
+- Strings
+
+More topics will be added as my practice continues.
+
+---
+
 ## Approach
 
-* Solutions are written in **Java**
-* Focus on clean logic and optimal approaches
-* Time and Space Complexity mentioned in source files
-* Structured for fast revision before interviews
+Each solution focuses on:
 
-## Topics Covered
+- Clean and readable Java code
+- Optimal or interview-preferred approaches
+- Well-structured implementation
+- Proper naming conventions
+- Easy revision before coding interviews
 
-* Arrays
+Whenever appropriate, source files include:
 
-(More topics will be added as practice progresses.)
+- Problem number and title
+- Approach
+- Time Complexity
+- Space Complexity
+
+---
 
 ## Objective
 
-* Strengthen Data Structures and Algorithms fundamentals
-* Prepare for coding interviews and campus placements
-* Maintain a consistent and well-organized problem-solving record
+This repository serves as my personal DSA journal with the goals of:
+
+- Strengthening Data Structures and Algorithms fundamentals
+- Preparing for coding interviews and campus placements
+- Tracking consistency in problem-solving
+- Building a structured collection of LeetCode solutions
+
+---
+
+## Language
+
+- Java
+
+---
 
 ## Progress
 
-Problems will be added regularly as part of continuous learning and practice.
+## Progress
+
+| Topic | Current Status |
+|--------|----------------|
+| Arrays | Completed (Ongoing Additions) |
+| Binary Search | Completed (Ongoing Additions) |
+| Hashing | Completed (Ongoing Additions) |
+| Recursion | Completed (Ongoing Additions) |
+| Strings | Completed (Ongoing Additions) |
+| Linked List | Planned |
+| Stack | Planned |
+| Queue | Planned |
+| Trees | Planned |
+| Graphs | Planned |
+| Dynamic Programming | Planned |
+
+---
+
+## Repository Highlights
+
+- Topic-wise organization
+- Beginner-friendly implementations
+- Regularly updated
+- Designed for interview preparation and quick revision
+
+---
+
+⭐ If you find this repository useful, feel free to star it.
