@@ -29,6 +29,11 @@ LeetCode_DSA
 │   ├── Medium
 │   └── Hard
 │
+├── Stack
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│
 ├── String
 │   ├── Easy
 │   ├── Medium
@@ -47,6 +52,7 @@ The repository currently includes solutions from the following topics:
 - Binary Search
 - Hash Functions
 - Recursion
+- Stack
 - Strings
 
 More topics will be added as my practice continues.
