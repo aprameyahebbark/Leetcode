@@ -20,5 +20,7 @@ public class GenerateParentheses_22 {
         int n = 5;
         generate("", 0, 0, n);
         System.out.println(result);
+
+
     }
 }
