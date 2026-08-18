@@ -10,7 +10,7 @@ public class GenerateParentheses_22 {
             return;
         }
         if (open < n) {
-            generate(str + "(", open + 1, close, n);
+            generate(str + "(",open + 1, close, n);
         }
         if (close < open) {
             generate(str + ")", open, close + 1, n);
