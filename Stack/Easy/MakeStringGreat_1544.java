@@ -21,6 +21,7 @@ public class MakeStringGreat_1544 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string: ");
         String s = sc.nextLine();
+
         String result = makeGood(s);
         System.out.println("The Good String: " + result);
 
