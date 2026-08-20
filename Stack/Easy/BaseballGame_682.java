@@ -16,7 +16,8 @@ public class BaseballGame_682 {
                 int second = stack.peek();
                 stack.push(first);
                 stack.push(first + second);
-            } else {
+            }
+            else {
                 stack.push(Integer.parseInt(op));
             }
         }
@@ -28,13 +29,12 @@ public class BaseballGame_682 {
     }
 
     public static void main(String[] args) {
+
         String[] ops1 = {"5", "2", "C", "D", "+"};
         System.out.println("Output 1 : " + calPoints(ops1));
         String[] ops2 = {"5", "-2", "4", "C", "D", "9", "+", "+"};
         System.out.println("Output 2 : " + calPoints(ops2));
-        String[] ops3 = {"1", "C"};
+        String[] ops3 = {"9", "8"};
         System.out.println("Output 3 : " + calPoints(ops3));
     }
-
-
 }
