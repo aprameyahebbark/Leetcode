@@ -19,8 +19,10 @@ public class ClearDigits_3174 {
         return result.reverse().toString();
     }
     public static void main(String[] args) {
-        String s = "cbww35";
+
+        String s = "cbw35";
         String result = clearDigits(s);
         System.out.println("Result is : " + result);
+
     }
 }
