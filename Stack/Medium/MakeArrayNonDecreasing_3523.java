@@ -11,6 +11,7 @@ public class MakeArrayNonDecreasing_3523 {
             }
             stack.push(curr);
         }
+
         return stack.size();
     }
     public static void main(String[] args) {
