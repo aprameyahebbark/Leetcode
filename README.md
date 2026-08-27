@@ -39,6 +39,11 @@ LeetCode_DSA
 │   ├── Medium
 │   └── Hard
 │
+├── Queue
+│   ├── Easy
+│   ├── Medium
+│   └── Hard
+│   
 └── README.md
 ```
 
