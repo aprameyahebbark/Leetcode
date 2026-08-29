@@ -7,16 +7,16 @@ public class NumberOfStudentsUnableToEatLunch_1700 {
             q.offer(student);
         }
         int sandwichIndex = 0;
-        int unable = 0;
-        while (!q.isEmpty() && unable < q.size()) {
+        int leftout = 0;
+        while (!q.isEmpty() && leftout < q.size()) {
             if (q.peek() == sandwiches[sandwichIndex]) {
                 q.poll();
                 sandwichIndex++;
-                unable = 0;
+                leftout = 0;
             }
             else {
                 q.offer(q.poll());
-                unable++;
+                leftout++;
             }
         }
         return q.size();
