@@ -25,6 +25,6 @@ public class NumberOfStudentsUnableToEatLunch_1700 {
         int[] students = {1, 1, 0, 1, 1};
         int[] sandwiches = {0, 1, 0, 1, 1};
         int result = countStudents(students, sandwiches);
-        System.out.println("Students unable to eat: " + result);
+        System.out.println("Students unable to eat the sandwiches: " + result);
     }
 }
